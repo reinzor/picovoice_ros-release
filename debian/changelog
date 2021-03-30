@@ -1,0 +1,14 @@
+ros-noetic-picovoice-msgs (0.0.2-1buster) buster; urgency=high
+
+
+
+ -- Rein Appeldoorn <reinzor@gmail.com>  Mon, 29 Mar 2021 22:00:00 -0000
+
+ros-noetic-picovoice-msgs (0.0.1-1buster) buster; urgency=high
+
+  * Picovoice ROS packages
+  * Contributors: Rein Appeldoorn
+
+ -- Rein Appeldoorn <reinzor@gmail.com>  Mon, 29 Mar 2021 22:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-noetic-picovoice-driver
+Section: misc
+Priority: optional
+Maintainer: Rein Appeldoorn <reinzor@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libsndfile1-dev, libyaml-cpp-dev, ros-noetic-actionlib, ros-noetic-catkin, ros-noetic-ddynamic-reconfigure, ros-noetic-picovoice-msgs, ros-noetic-roscpp, ros-noetic-roslib
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-picovoice-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsndfile1-dev, libyaml-cpp-dev, ros-noetic-actionlib, ros-noetic-ddynamic-reconfigure, ros-noetic-picovoice-msgs, ros-noetic-roscpp, ros-noetic-roslib
+Description: ROS Wrappers for the Picovoice libraries

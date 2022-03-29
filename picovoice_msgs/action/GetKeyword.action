@@ -1,5 +1,0 @@
-Keyword[] keywords  # Keyword specification
----
-bool is_understood  # Whether it has understood a keyword
-string keyword_name  # Keyword name
----

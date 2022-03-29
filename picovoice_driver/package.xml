@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>picovoice_driver</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>ROS Wrappers for the Picovoice libraries</description>
 
   <maintainer email="reinzor@gmail.com">Rein Appeldoorn</maintainer>
@@ -12,6 +12,7 @@
 
   <depend>actionlib</depend>
   <depend>ddynamic_reconfigure</depend>
+  <depend>libsndfile1-dev</depend>
   <depend>picovoice_msgs</depend>
   <depend>roscpp</depend>
   <depend>roslib</depend>

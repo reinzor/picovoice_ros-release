@@ -1,0 +1,35 @@
+[package]
+name = "pv_recorder"
+version = "1.0.1"
+edition = "2018"
+description = "Rust recorder library for Picovoice"
+license = "Apache-2.0"
+keywords = [
+    "audio",
+    "recorder",
+]
+publish = true
+include = [
+	".gitignore",
+	"build.rs",
+	"Cargo.toml",
+	"data/",
+	"README.md",
+	"src/",
+]
+
+[lib]
+name = "pv_recorder"
+path = "src/lib.rs"
+crate_type = ["lib"]
+
+[dependencies]
+libc = "0.2"
+libloading = "0.7"
+log = "0.4"
+lazy_static = "1.4.0"
+
+[dev-dependencies]
+hound = "3.4.0"
+clap = "2.33.3"
+ctrlc = "3.1.9"
